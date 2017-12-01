@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link th:replace="fragments::link_css" />
+    <script th:replace="fragments::link_js" />
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Веб приложение</h1>
+        <p>Вы попали в приватное приложение и для продолжения работы вам необходимо авторизоваться!</p>
+        <a href="/login" class="btn btn-success btn-lg">Войти</a>
+    </div>
+</div>
+</body>
+</html>

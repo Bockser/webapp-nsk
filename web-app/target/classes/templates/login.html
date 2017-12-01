@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link th:replace="fragments::link_css" />
+    <script th:replace="fragments::link_js" />
+</head>
+
+<body onload='document.loginForm.username.focus();'>
+<h1 class="login-h1">Education Web Platform</h1>
+
+<div class="container">
+    <form class="form-signin" name='loginForm' action="" method='POST'>
+        <h3>Авторизация</h3>
+        <input class="form-control" placeholder="Email" type="text" name="username"/>
+        <input class="form-control" placeholder="Password" type="password" name="password"/>
+
+        <div class="${not empty error}?('error') bg-danger" th:text="${error}"></div>
+        <div class="${not empty msg}?('msg') bg-danger" th:text="${msg}"></div>
+        <br/>
+        <input class="btn btn-lg btn-primary btn-block" name="submit" type="submit" value="Войти"/>
+    </form>
+</div>
+</body>
+</html>
