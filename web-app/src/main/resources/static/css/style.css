@@ -1,0 +1,336 @@
+.error {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+.msg {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+
+#login-box {
+	width: 300px;
+	padding: 20px;
+	margin: 100px auto;
+	background: #fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border: 1px solid #000;
+}
+
+#registration-box {
+	width: 300px;
+	padding: 20px;
+	margin: 100px auto;
+	background: #fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border: 1px solid #000;
+}
+
+.form-control {
+	margin-top: 14px;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+	border-radius: 6px;
+	border: 3px solid white;
+
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: normal;
+}
+
+.form-signin .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+}
+
+h1 {
+	margin-bottom: 60px;
+}
+
+h3 {
+	text-align: center;
+}
+
+.bg-danger {
+	font-size: 14px;
+	color: #a94442;
+	margin: 5px 0;
+}
+
+.back {
+	padding-left: 20px;
+	color: black;
+	font-size: 15px;
+}
+
+.date-selects {
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.date-selects select {
+	width: 33%;
+	float: left;
+}
+
+.h1 {
+	text-align: center;
+}
+
+#name {
+	width: 300px;
+}
+
+ul {
+	list-style: none;
+}
+
+.multiselect.dropdown-toggle.btn.btn-default {
+	padding: 0 12px;
+}
+
+span.hidden {
+	display: none;
+}
+
+.highlight {
+	background-color: #a94442;
+}
+
+.html-button {
+	display: block;
+	width: 300px;
+	margin-bottom: 30px;
+}
+
+/*
+ * Base structure
+ */
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.sidebar {
+		position: fixed;
+		top: 0px;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		display: block;
+		padding: 20px;
+		overflow-x: hidden;
+		overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+		background-color: #ccccff;
+		border-right: 1px solid #eee;
+	}
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+	margin-right: -21px; /* 20px padding + 1px border */
+	margin-bottom: 20px;
+	margin-left: -20px;
+}
+
+.nav-sidebar > li > a {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.nav-sidebar > .active > a {
+	color: #fff;
+	background-color: #428bca;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+	padding: 20px;
+}
+
+@media (min-width: 768px) {
+	.main {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+}
+
+.main .page-header {
+	margin-top: 0;
+}
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.placeholders h4 {
+	margin-bottom: 0;
+}
+
+.placeholder {
+	margin-bottom: 20px;
+}
+
+.placeholder img {
+	display: inline-block;
+	border-radius: 50%;
+}
+
+body {
+	padding-top: 50px;
+}
+
+.form-horizontal .form-group.m-n {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.navbar-brand {
+	cursor: pointer;
+}
+
+.login-h1 {
+	text-align: center;
+}
+
+.modal-close {
+	height: 75px;
+}
+
+.modal-username {
+	height: 75px;
+}
+
+.panel {
+	border-radius: 0;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.btn {
+	border-radius: 0;
+}
+
+.date {
+	margin-top: 5px;
+	font-size: 12px;
+	color: gray;
+}
+
+.change-btn {
+	background: none;
+	border: bisque;
+	color: grey;
+	font-size: 11px;
+	margin-left: 15px;
+}
+
+.page-header h3 {
+	text-align: left;
+	margin-top: 20px;
+}
+
+h3.page-header {
+	text-align: left;
+	margin-top: 10px;
+	font-size: 22px;
+}
+
+.btn-c {
+	border-radius: 5px;
+	background: transparent;
+	color: gray;
+	border: 1px solid grey;
+	text-shadow: none;
+}
+
+#tf {
+	margin-top: 10px;
+}
+
+.modal-footer {
+	margin-top: 14px;
+}
+
+.top-buffer {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.top-buffer-2 {
+	margin-top: 15px;
+	position: absolute;right: 10px;
+	border-radius: 50%;
+}
+
+.top-buffer-3 {
+	margin-top: 15px;
+	position: absolute;right: 60px;
+	border-radius: 50%;
+}
+
+.indent {
+	margin-left: 10px;
+}
+
+.panel-title.panel-max-with {
+	width: 100%;
+}

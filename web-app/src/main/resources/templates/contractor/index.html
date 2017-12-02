@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link th:replace="fragments::link_css" />
+    <th:block th:replace="fragments::script_js"></th:block>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div th:replace="fragments :: left-panel"></div>
+            <div class="div col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <h1 class="page-header">Контрагенты</h1>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tab-contract" data-toggle="tab">Договора</a></li>
+                    <li><a href="#tab-act" data-toggle="tab">Акты</a></li>
+                    <li><a href="#tab-cmr" data-toggle="tab">CMR</a></li>
+                    <li><a href="#tab-card" data-toggle="tab">Карточки</a></li>
+                </ul>
+                <div class="tab-content" style="margin-top: 20px">
+                    <div id="tab-contract" class="tab-pane in active">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Нормер</th>
+                                    <th>Дата</th>
+                                    <th>Контрагент</th>
+                                    <th>Агент</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>01.01.2017</td>
+                                    <td>Тест Контрагент 1</td>
+                                    <td>Тест Агент 1</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>01.01.2017</td>
+                                    <td>Тест Контрагент 2</td>
+                                    <td>Тест Агент 2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="tab-act" class="tab-pane fade">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Нормер</th>
+                                    <th>Дата</th>
+                                    <th>Контрагент</th>
+                                    <th>Агент</th>
+                                    <th>Сумма</th>
+                                    <th>CMR</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>01.01.2017</td>
+                                    <td>Тест Контрагент 1</td>
+                                    <td>Тест Агент 1</td>
+                                    <td>100 тыс. руб.</td>
+                                    <td>Тест CMR 1</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>01.01.2017</td>
+                                    <td>Тест Контрагент 2</td>
+                                    <td>Тест Агент 2</td>
+                                    <td>120 тыс. руб.</td>
+                                    <td>Тест CMR 2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="tab-cmr" class="tab-pane fade">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>Нормер</th>
+                                <th>Дата</th>
+                                <th>Контрагент</th>
+                                <th>Агент</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>01.01.2017</td>
+                                <td>Тест Контрагент 1</td>
+                                <td>Тест Агент 1</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>01.01.2017</td>
+                                <td>Тест Контрагент 2</td>
+                                <td>Тест Агент 2</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="tab-card" class="tab-pane fade">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>Нормер</th>
+                                <th>Дата</th>
+                                <th>Контрагент</th>
+                                <th>Агент</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>01.01.2017</td>
+                                <td>Тест Контрагент 1</td>
+                                <td>Тест Агент 1</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>01.01.2017</td>
+                                <td>Тест Контрагент 2</td>
+                                <td>Тест Агент 2</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

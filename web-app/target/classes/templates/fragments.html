@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
               integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
               crossorigin="anonymous"/>
+        <link rel="stylesheet" th:href="@{/static/css/style.css}" />
     </th:block>
 
     <th:block class="script_js" th:fragment="script_js">
@@ -22,6 +23,28 @@
     </th:block>
 </head>
 <body>
+
+<th:block th:fragment="left-panel">
+    <nav class="col-sm-3 col-md-2  sidebar">
+        <ul class="nav nav-sidebar">
+            <li class="nav-item">
+                <a class="nav-link" href="/manage/contractor/">
+                    Контрагенты
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/manage/provider/">
+                    Поставщики
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/manage/agent/">
+                    Агенты
+                </a>
+            </li>
+        </ul>
+    </nav>
+</th:block>
 
 </body>
 </html>
